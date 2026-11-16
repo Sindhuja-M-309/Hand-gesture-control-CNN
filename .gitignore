@@ -1,0 +1,55 @@
+# Python Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Python Compiled Artifacts & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# TensorFlow / Keras Model Checkpoints & Logs
+*.h5
+*.keras
+*.pb
+*.onnx
+*.tflite
+checkpoint
+*.ckpt*
+logs/
+tensorboard_logs/
+
+# Dataset Images (Prevents committing thousands of binary image files)
+gesture_dataset/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.pydevproject
+
+# System & OS Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
