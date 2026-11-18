@@ -34,7 +34,6 @@ DL_mini_project/
 ├── app.py                 # Real-time HCI webcam inference & key execution interface
 ├── hand_gesture_cnn.h5    # Saved trained CNN model weights
 ├── gesture_dataset/       # Saved image datasets (categorized by class)
-├── requirements.txt       # Project dependencies
 ├── .gitignore             # File exclusion rules
 └── README.md              # Project documentation
 ```
@@ -59,12 +58,6 @@ python -m venv venv
 
 # Linux/macOS:
 source venv/bin/activate
-```
-
-### 3. Install Dependencies
-
-```
-pip install -r requirements.txt
 ```
 
 ---
