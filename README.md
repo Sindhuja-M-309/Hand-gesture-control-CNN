@@ -1,4 +1,4 @@
-# 🖐️ Touchless Hand Gesture HCI System using CNN & OpenCV
+# Touchless Hand Gesture HCI System using CNN & OpenCV
 
 A real-time Human-Computer Interaction (HCI) application that uses a 6-class **Convolutional Neural Network (CNN)**, **OpenCV**, and **PyAutoGUI** to control system media playback and browser hotkeys using real-time webcam gestures.
 
@@ -26,7 +26,7 @@ A real-time Human-Computer Interaction (HCI) application that uses a 6-class **C
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 DL_mini_project/
@@ -40,14 +40,14 @@ DL_mini_project/
 ```
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ---
 ### 1. Clone the Repository
 ```
-git clone [https://github.com/Sindhuja-M-309/Hand-gesture-control-cnn.git](https://github.com/YOUR_USERNAME/gesture-flow-hci.git)
+git clone https://github.com/Sindhuja-M-309/Hand-gesture-control-cnn.git
 
-cd gesture-flow-hci
+cd Hand-gesture-control-cnn
 ```
 
 ### 2. Set Up Virtual Environment
@@ -69,7 +69,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 How to Run
+## How to Run
 Run Real-Time Gesture Control
 
 Launch the main HCI control application:
@@ -97,7 +97,7 @@ Press s to begin capturing 300 samples for each class (Background, Fist, One, Tw
 
 ---
 
-## 📊 Model Architecture & Performance
+## Model Architecture & Performance
 
 **Input Resolution:** 64 x 64 x 1 (Grayscale Binary Mask)
 
@@ -111,7 +111,7 @@ Press s to begin capturing 300 samples for each class (Background, Fist, One, Tw
 
 ---
 
-### 📜 License
+### License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
